@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --field-size: 800px;
+  --cell-size: 50px;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+  margin: 0;
+  padding: 20px;
+  font-family: system-ui, sans-serif;
+}
+.game-wrap {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: start;
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+}
+.scorebox {
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+}
+.scorebox h2 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+.score {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #2c9a3b;
+}
+.highscore {
+  margin-top: 6px;
+}
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.field-wrap {
+  background: #2c9a3b;
+  width: var(--field-size);
+  height: var(--field-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  padding: 0;
+}
+canvas {
+  background: transparent;
+  display: block;
+  width: var(--field-size);
+  height: var(--field-size);
+  border-radius: 8px;
+}

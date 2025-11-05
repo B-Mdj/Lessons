@@ -1,0 +1,29 @@
+<!-- export default function Home() { return (
+<main className="flex min-h-screen items-center justify-center bg-gray-100">
+  <div className="bg-white shadow-lg rounded-xl p-6 w-80 text-center">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2KbCeh0NopZbBdbQmXqTZ6Rr_sMexbi3SEQ&s"
+      alt="Profile"
+      className="w-20 h-20 rounded-full mx-auto mb-4 object-cover"
+    />
+    <h2 className="text-xl font-semibold text-gray-800">Sarah Dole</h2>
+    <p className="text-sm text-gray-500 mb-3">Front End Engineer @ Microsoft</p>
+    <p className="text-gray-600 text-sm mb-5">
+      I turn coffee into bugs which are fixed by someone else. Certified Stack
+      Overflow and ChatGPT developer.
+    </p>
+    <button
+      className="w-full bg-indigo-600 text-white py-2 rounded-md hover:bg-indigo-700 transition"
+    >
+      Contact me
+    </button>
+    <div className="flex justify-center gap-5 mt-5 text-gray-500"></div>
+    <div>
+      <img />
+      <img />
+      <img />
+      <img />
+    </div>
+  </div>
+</main>
+); } -->
